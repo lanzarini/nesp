@@ -10,6 +10,9 @@ border: 1px solid #286090;}
     padding-left: 0px;
     padding-right: 0px;
 }
+.btn-primary {
+        background-color: #2f3233
+}
 .msg{color:#999;position: absolute;opacity: 0;
   z-index: -1;display:inline;
   pointer-events: none;
@@ -21,14 +24,18 @@ border: 1px solid #286090;}
     -webkit-transition: opacity .5s ease-in-out,display 0s;
     }
 
-#turndur{margin-top:12px;}
+#turndur{margin-top:25px;}
 
 .form-control {border: 1px solid #86abbd}
 .styled-select select:disabled{-webkit-appearance: none;}
 
 .styled-select select.option{color:white;}
 .styled-select select{
-   
+    
+
+    display: flex;
+ 
+    margin: 0px auto;
    background: #2f3233;
     color:white;
     text-align:center;

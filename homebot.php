@@ -37,11 +37,11 @@
     </div>
 </nav>  <!-- CABEÇALHO -->
     
-    
+   
 <div class="container" id="divaba" data-spy="affix" data-offset-top="95"> <!-- div das abas-->
     <ul class="nav nav-tabs"> <!-- ABAS -->
-    <li class="active"><a data-toggle="tab" href="#Estagio">Estagio</a></li>
-    <li><a data-toggle="tab" href="#Listadecandidatos">Lista de candidatos</a></li>
+    <li ><a data-toggle="tab" href="#Estagio">Estagio</a></li>
+    <li class="active"><a data-toggle="tab" href="#Listadecandidatos">Lista de candidatos</a></li>
     <li><a data-toggle="tab" href="#Antigoscontratos">Antigos contratos</a></li>
     <li><a data-toggle="tab" href="#Estagiarioatual">Estagiario atual</a></li>
     <li><a data-toggle="tab" href="#Contratoatual">Contrato atual</a></li>
@@ -51,13 +51,12 @@
     
 <div class="container" id="divfore"><!-- Div Mãe dos conteudos--> 
     <div class="tab-content">  <!-- CONTEUDO DAS ABAS-->
-        <div id="Estagio" class="tab-pane fade in active"> <!--div aba estagio-->
+        <div id="Estagio" class="tab-pane fade "> <!--div aba estagio-->
             <?php include "estagio.php" ?>
         </div> <!--div aba estagio-->
-        <div id="Listadecandidatos" class="tab-pane fade">
-            <h3>Menu 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+        <div id="Listadecandidatos" class="tab-pane fade in active"> <!--div aba usuario-->
+            <?php include "Usuario.php" ?>
+        </div><!--div aba usuario-->
         <div id="Antigoscontratos" class="tab-pane fade" style="height:1000px">
             <h3>Menu 2</h3>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>

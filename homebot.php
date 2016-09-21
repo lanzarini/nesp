@@ -58,7 +58,7 @@
             <?php include "estagio.php" ?>
         </div> <!--div aba estagio-->
         <div id="Listadecandidatos" class="tab-pane fade in active"> <!--div aba usuario-->
-            <?php include "Usuario.php" ?>
+            
         </div><!--div aba usuario-->
         <div id="Antigoscontratos" class="tab-pane fade" style="height:1000px">
             <h3>Menu 2</h3>

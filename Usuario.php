@@ -110,7 +110,7 @@
     </div><!--div fones -->
         <div class="form-group"> <!--div do curriculo -->
         <label for="comment">Curriculo do usuario:</label>
-        <textarea data-toggle="tooltip" title="curriculo!" class="form-control"   name="elm4" rows="1"   readonly ><p>Curriculo do usuario<p></textarea>
+        <textarea data-toggle="tooltip" title="curriculo!" class="form-control "  id="ativo" name="elm4" rows="1"    ><p>Curriculo do usuario<p></textarea>
     </div> <!--div do curriculo -->
     <label>Tempo de estagio: 6 meses</label>
     <br>

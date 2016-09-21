@@ -44,10 +44,10 @@
 <div class="container" id="divaba" data-spy="affix" data-offset-top="95"> <!-- div das abas-->
     <ul class="nav nav-tabs"> <!-- ABAS -->
     <li ><a data-toggle="tab" href="#Estagio">Estagio</a></li>
-    <li class="active"><a data-toggle="tab" href="#Listadecandidatos">Lista de candidatos</a></li>
+    <li><a data-toggle="tab" href="#Listadecandidatos">Lista de candidatos</a></li>
     <li><a data-toggle="tab" href="#Antigoscontratos">Antigos contratos</a></li>
     <li><a data-toggle="tab" href="#Estagiarioatual">Estagiario atual</a></li>
-    <li><a data-toggle="tab" href="#Contratoatual">Contrato atual</a></li>
+    <li  class="active"><a data-toggle="tab" href="#Contratoatual">Contrato atual</a></li>
     </ul>  <!-- ABAS -->
 </div> <!-- div das abas-->
     
@@ -57,7 +57,7 @@
         <div id="Estagio" class="tab-pane fade "> <!--div aba estagio-->
             <?php include "estagio.php" ?>
         </div> <!--div aba estagio-->
-        <div id="Listadecandidatos" class="tab-pane fade in active"> <!--div aba usuario-->
+        <div id="Listadecandidatos" class="tab-pane fade"> <!--div aba usuario-->
             
         </div><!--div aba usuario-->
         <div id="Antigoscontratos" class="tab-pane fade" style="height:1000px">
@@ -67,7 +67,7 @@
         <div id="Estagiarioatual" class="tab-pane fade">
             <?php include "Usuario.php" ?>
         </div>
-        <div id="Contratoatual" class="tab-pane fade">
+        <div id="Contratoatual" class="tab-pane fade in active">
             <?php include "contrato.php" ?>
         </div>
       

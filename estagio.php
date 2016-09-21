@@ -86,9 +86,9 @@
     <br>
     <div class="form-group"> <!--div da area de descrição -->
         <label for="comment">Descrição do estagio:</label>
-        <textarea data-toggle="tooltip" title="Descrição!" class="form-control" rows="1" id="comment" >Descrição completa do estagio</textarea>
+        <textarea data-toggle="tooltip" title="Descrição!" class="form-control "  Data Type = "HTML Editor" rows="1" id="comment" >Descrição completa do estagio</textarea>
     </div> <!--div da area de descrição -->
     <br>
-    <input type="submit" value="Enviar alteração" class="btn btn-primary disabled">
+    <input type="submit" value="Alterar perfil de usuario" class="btn btn-primary disabled">
     <br><br>
 </form>

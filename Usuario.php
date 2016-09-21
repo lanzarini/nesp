@@ -68,26 +68,52 @@
             <input data-toggle="tooltip" title="numero!" type="text" class="form-control" name="numero" value="117">
         </div><!--div cpf --> 
     </div>
-        <div class="form-group row">
-        <div class="col-sm-4 col-xs-4"><!--div bairro -->
+    <div class="form-group row">
+        <div class="col-sm-4 col-xs-8"><!--div bairro -->
             <label >Bairro</label>
             <input data-toggle="tooltip" title="Bairro!" type="text" class="form-control" name="bairro" value="alameda dos anjos">
         </div><!--div bairro -->
-        <div class="styled-select col-sm-2 col-xs-2"><!--div estado -->
-            <select required="required" id="turndur" name="estado" data-toggle="tooltip" title="estado!">  
-            <option value="">estado</option>
-            <option value="mg" >mg</option>
-            <option value="df" >df</option> 
-            </select>
-        </div><!--div setor -->
-        <div class="styled-select col-sm-4 col-xs-12"><!--div cidade -->
+        <div class="col-sm-2 col-xs-4"><!--div cep -->
+            <label >CEP</label>
+            <input data-toggle="tooltip" title="CEP!" type="text" class="form-control" name="cep" value="39400-000">
+        </div><!--div cep -->
+        <div class="styled-select col-sm-4 col-xs-8"><!--div cidade -->
             <select required="required" id="turndur" name="cidade" data-toggle="tooltip" title="cidade!">  
             <option value="">cidade</option>
             <option value="moc" >montes claros</option>
             <option value="pir" >pirapora</option> 
             </select>
-        </div><!--div cidade -->
-
-        
+        </div><!--div cidade --> 
+         <div class="styled-select col-sm-2 col-xs-4"><!--div estado -->
+            <select required="required" id="turndur" name="estado" data-toggle="tooltip" title="estado!">  
+            <option value="">estado</option>
+            <option value="mg" >mg</option> 
+            <option value="df" >df</option> 
+            </select>
+        </div><!--div estado -->      
     </div>
+    <div class="form-group row col-sm-6"><!--div email -->
+        
+            <label >email</label>
+            <input data-toggle="tooltip" title="email!" type="text" class="form-control" name="email" value="exemplo@email.com">
+        
+    </div><!--div email -->
+    <div class="form-group row "><!--div fones -->
+        <div class="col-sm-3 col-xs-6"  ><!--div fixo -->
+            <label >fixo</label>
+            <input data-toggle="tooltip" title="fixo!" type="text" class="form-control" name="fixo" value="3333-3333">
+        </div><!--div fixo -->
+        <div class="col-sm-3 col-xs-6 " ><!--div movel -->
+            <label >movel</label>
+            <input data-toggle="tooltip" titlefixo="movel!" type="text" class="form-control" name="movel" value="9999-9999">
+        </div><!--div movel -->
+    </div><!--div fones -->
+        <div class="form-group"> <!--div do curriculo -->
+        <label for="comment">Curriculo do usuario:</label>
+        <textarea data-toggle="tooltip" title="curriculo!" class="form-control"   name="elm4" rows="1"   readonly ><p>Curriculo do usuario<p></textarea>
+    </div> <!--div do curriculo -->
+    <label>Tempo de estagio: 6 meses</label>
+    <br>
+    <input type="submit" value="Enviar alteração" class="btn btn-primary disabled">
+    <br><br>
 </form>

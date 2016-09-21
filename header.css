@@ -48,6 +48,11 @@ border: 1px solid #286090;}
  
    }    
 
+.cke_top {
+background-image: linear-gradient(to bottom,#34568e,#c6dff)
+  
+}
+
 .styled-select select:focus+.msg{
     position: static;
   z-index: auto;
@@ -57,8 +62,6 @@ border: 1px solid #286090;}
     overflow:inherit;
     
    }
-
-
 
 .affix {
     top: 0;   

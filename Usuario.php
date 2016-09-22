@@ -108,9 +108,9 @@
             <input data-toggle="tooltip" titlefixo="movel!" type="text" class="form-control" name="movel" value="9999-9999">
         </div><!--div movel -->
     </div><!--div fones -->
-        <div class="form-group"> <!--div do curriculo -->
+    <div class="form-group"> <!--div do curriculo -->
         <label for="comment">Curriculo do usuario:</label>
-        <textarea data-toggle="tooltip" title="curriculo!" class="form-control "  id="ativo" name="elm4" rows="1"    ><p>Curriculo do usuario<p></textarea>
+        <textarea data-toggle="tooltip" title="curriculo!" class="form-control "  id="ativo" name="elm4" rows="1"    >&lt;&lt;&lt;&lt;&lt;<p>Curriculo do usuario<p></textarea>
     </div> <!--div do curriculo -->
     <label>Tempo de estagio: 6 meses</label>
     <br>

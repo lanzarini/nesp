@@ -134,6 +134,19 @@ cursor: not-allowed;
 
 }
 
+fieldset{
+border: 1px solid black;
+padding-bottom: 10px;
+width: auto;
+}
+
+legend{
+    width: auto;
+    padding: 5px;
+    border-bottom:0;
+    margin-bottom: 0;
+}
+
 /*não mexa daqui pra baixo (responsividade menu)*/
   .navbar-collapse {
       border-top: none;

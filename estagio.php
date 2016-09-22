@@ -59,7 +59,7 @@
     <div class="form-group row"  ><!--Segunda LINHA DE COMBLIST -->
         <div  class="col-sm-3 col-xs-6" > <!-- div horario entrada-->
             <label >Entrada:</label>
-            <input data-toggle="tooltip" title="Horario de entrada!" type="time" class="form-control" name="bday">
+            <input data-toggle="tooltip" title="Horario de entrada!" type="time" class="form-control" name="bday" readonly>
         </div><!-- div horario entrada-->
         <div  class="col-sm-3 col-xs-6" ><!-- div horario saida-->
             <label >Saida:</label>
